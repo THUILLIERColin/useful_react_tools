@@ -1,9 +1,11 @@
 import { Routes, Route } from "react-router-dom";
-import ProductFeatures from "./components/ProductFeatures";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
+import ProductFeatures from "./components/ProductFeatures";
+import HeroSection from "./components/HeroSection";
 
 import ProductFeaturesImg from "./assets/componentsImg/ProductFeatures.png";
+import HeroSectionImg from "./assets/componentsImg/HeroSection.png";
 
 const component = [
   {
@@ -12,6 +14,12 @@ const component = [
     img: ProductFeaturesImg,
     element: <ProductFeatures />,
   },
+    {
+        path: "/hero-section",
+        name: "Hero Section",
+        img: HeroSectionImg,
+        element: <HeroSection />,
+    },
 ];
 
 export default function App() {
