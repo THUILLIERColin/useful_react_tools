@@ -4,10 +4,12 @@ import Card from "./components/Card";
 import ProductFeatures from "./components/ProductFeatures";
 import HeroSection from "./components/HeroSection";
 import NewsletterSections from "./components/NewsletterSections";
+import HeaderSection from "./components/HeaderSection";
 
 import ProductFeaturesImg from "./assets/componentsImg/ProductFeatures.png";
 import HeroSectionImg from "./assets/componentsImg/HeroSection.png";
 import NewsletterSectionsImg from "./assets/componentsImg/NewsletterSections.png";
+import HeaderSectionImg from "./assets/componentsImg/HeaderSection.png";
 
 const component = [
   {
@@ -16,18 +18,24 @@ const component = [
     img: ProductFeaturesImg,
     element: <ProductFeatures />,
   },
-    {
-        path: "/hero-section",
-        name: "Hero Section",
-        img: HeroSectionImg,
-        element: <HeroSection />,
-    },
-    {
-        path: "/newsletter-sections",
-        name: "Newsletter Sections",
-        img: NewsletterSectionsImg,
-        element: <NewsletterSections />,
-    },
+  {
+    path: "/hero-section",
+    name: "Hero Section",
+    img: HeroSectionImg,
+    element: <HeroSection />,
+  },
+  {
+    path: "/newsletter-sections",
+    name: "Newsletter Sections",
+    img: NewsletterSectionsImg,
+    element: <NewsletterSections />,
+  },
+  {
+    path: "/header-section",
+    name: "Header Section",
+    img: HeaderSectionImg,
+    element: <HeaderSection />,
+  },
 ];
 
 export default function App() {
