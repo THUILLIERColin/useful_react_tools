@@ -5,11 +5,13 @@ import ProductFeatures from "./components/ProductFeatures";
 import HeroSection from "./components/HeroSection";
 import NewsletterSections from "./components/NewsletterSections";
 import HeaderSection from "./components/HeaderSection";
+import LogoClouds from "./components/LogoClouds";
 
 import ProductFeaturesImg from "./assets/componentsImg/ProductFeatures.png";
 import HeroSectionImg from "./assets/componentsImg/HeroSection.png";
 import NewsletterSectionsImg from "./assets/componentsImg/NewsletterSections.png";
 import HeaderSectionImg from "./assets/componentsImg/HeaderSection.png";
+import LogoCloudsImg from "./assets/componentsImg/LogoClouds.png";
 
 const component = [
   {
@@ -35,6 +37,12 @@ const component = [
     name: "Header Section",
     img: HeaderSectionImg,
     element: <HeaderSection />,
+  },
+  {
+    path: "/logo-clouds",
+    name: "Logo Clouds",
+    img: LogoCloudsImg,
+    element: <LogoClouds />,
   },
 ];
 
