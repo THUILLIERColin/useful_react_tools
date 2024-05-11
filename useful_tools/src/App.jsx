@@ -6,6 +6,7 @@ import HeroSection from "./components/HeroSection";
 import NewsletterSections from "./components/NewsletterSections";
 import HeaderSection from "./components/HeaderSection";
 import LogoClouds from "./components/LogoClouds";
+import Press from "./components/Press";
 
 import ProductFeaturesImg from "./assets/componentsImg/ProductFeatures.png";
 import HeroSectionImg from "./assets/componentsImg/HeroSection.png";
@@ -44,6 +45,12 @@ const component = [
     img: LogoCloudsImg,
     element: <LogoClouds />,
   },
+  {
+    path: "/press",
+    name: "Press",
+    img:"",
+    element: <Press />,
+  }
 ];
 
 export default function App() {
