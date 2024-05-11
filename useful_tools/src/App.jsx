@@ -3,9 +3,11 @@ import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import ProductFeatures from "./components/ProductFeatures";
 import HeroSection from "./components/HeroSection";
+import NewsletterSections from "./components/NewsletterSections";
 
 import ProductFeaturesImg from "./assets/componentsImg/ProductFeatures.png";
 import HeroSectionImg from "./assets/componentsImg/HeroSection.png";
+import NewsletterSectionsImg from "./assets/componentsImg/NewsletterSections.png";
 
 const component = [
   {
@@ -19,6 +21,12 @@ const component = [
         name: "Hero Section",
         img: HeroSectionImg,
         element: <HeroSection />,
+    },
+    {
+        path: "/newsletter-sections",
+        name: "Newsletter Sections",
+        img: NewsletterSectionsImg,
+        element: <NewsletterSections />,
     },
 ];
 
